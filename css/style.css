@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    outline: 1px solid black;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+header,
+section,
+main,
+nav,
+footer,
+article,
+figure,
+hgroup {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_logo {
+    max-width: 20vw;
+    height: auto;
+}
+
+.menu {
+    width: 100%;
+    background-color: #1c253b;
+}
+
+.option-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu-links {
+    font: 300 4vw Verdana, Tahoma, sans-serif;
+    color: #fff;
+    display: block;
+    line-height: 10vw;
+    height: 10vw;
+}
+
+.menu-links:hover {
+    box-shadow: 0 -7px 0 0 white inset;
+    transition: .4s all ease-in-out;
+}
+
+.banner-men,
+.banner-women {
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+}
+
+.category > .category-img {
+    width: 40vw;
+    height: auto;
+}
+
+.banner-women {
+    flex-direction: row-reverse;
+}
+
+.banner-women > .category > .category-img {
+    align-self: flex-end;
+}
+
+.category-description {
+    letter-spacing: .3vw;
+    max-width: 40vw;
+    padding: 0 3vw;
+    align-self: flex-start;
+}
+
+.category-title {
+    font: 300 4vw Verdana, Tahoma, sans-serif;
+    padding: 1.5vw 0;
+}
+
+.category-subtitle {
+    font: 100 2vw Verdana, Tahoma, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box-item {
+    width: 18vw;
+    padding: 3vw 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category-item {
+    font: 100 1.5vw Verdana, Tahoma, sans-serif;
+    color: #C0C0C0;
+}
+.title-item {
+    font: 100 2vw Verdana, Tahoma, sans-serif;
+}
+
+.price-item{
+    font: 100 2vw Verdana, Tahoma, sans-serif;
+    color: #4169E1;
+}
+
+.img-item {
+    max-width: 100%;
+    height: auto;
+}
